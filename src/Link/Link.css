@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hovered {
+    background-color: rgb(127, 187, 15);
+    color: #000;
+    padding: 0.5rem 0.7rem;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.normal {
+    background-color: rgba(69, 88, 172, 0.486);
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+    font-size: 2rem;
+    transition: 0.3s;
+}
